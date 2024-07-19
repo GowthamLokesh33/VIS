@@ -29,11 +29,11 @@ td {
   padding: 8px;
   text-align: center;
   width: 24vh;
+  background-color: #FFF1DB !important;
 }
 
 tr {
   /* background-color: cadetblue; #E88D67 #BEC6A0 */
-  background-color: cadetblue;
   color: white;
   text-transform: uppercase; 
 }
@@ -42,7 +42,7 @@ select {
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  background-color: #f1f1f1;
+  background-color: #D4BDAC;
   font-size: 16px;
   cursor: pointer;
   outline: none;
