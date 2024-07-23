@@ -6,11 +6,6 @@ body {
   background-color: #F5F7F8;
 }
 
-/* .container,
-.row {
-  justify-content: center;
-} */
-
 .span {
   font-weight: 400;
   color: #dc3545;
@@ -44,14 +39,14 @@ tr {
 }
 
 select {
-  padding: 8px;
+  /* padding: 8px; */
   border: 1px solid #ccc;
   border-radius: 4px;
   background-color: #D4BDAC !important;
   font-size: 16px;
   cursor: pointer;
   outline: none;
-  width: 24vh;
+  width: 21vh;
   text-align: center;
 }
 
@@ -70,10 +65,20 @@ select:focus {
   padding-right: 0 !important;
 }
 
-/* .row>.copyright-align {
-  text-align: center;
-} */
+@media screen and (max-width:767px) {
+  table tr > *{
+      display: inline-block;
+  }
+  table tr {
+      display: table-cell;
+  }
+}
 
-/* .d-flex {
-  display: flex !important;
-} */
+@media screen and (max-width:991px) {
+  table tr > *{
+      display: inline-block;
+  }
+  table tr {
+      display: table-cell;
+  }
+}
