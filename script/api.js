@@ -1,5 +1,5 @@
 var apiDetailsinfo = {
-  MainIVR: {
+  GeneralIVR: {
     CustomerName: {
       Success: {
         200: ["Customer Name : CustomerName"]
