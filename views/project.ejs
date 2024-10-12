@@ -1,0 +1,74 @@
+<!-- Header -->
+<%- include("partials/header.ejs") %>
+
+<body>
+  <!-- Main -->
+  <section id="main">
+    <div class="container col-12 px-4 py-5">
+      <div class="row flex-lg-row align-items-center g-5 py-5">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Projects</h1>
+        <p class="lead">Select the Project either General IVR or UPI123 using this we can able to check Success or
+          Failure
+          details. And using the help of Log Description, we can able to find the keyword which needs to be searched
+          in
+          the trace log both General IVR and UPI123.</p>
+
+        <div class="table-responsive-xxl table-responsive-xl table-responsive-lg table-responsive-md table-responsive-sm">
+          <table class="table">
+            <tr>
+              <th>Projects</th>
+              <th>Webservice</th>
+              <th>Status</th>
+              <th>Error Code</th>
+              <th>Log Description</th>
+            </tr>
+            <tr>
+              <td class="select">
+                <form action="#">
+                  <select name="" id="tbproject">
+                    <option value="">--Select Project--</option>
+                  </select>
+                </form>
+              </td>
+              <td class="select">
+                <form action="#">
+                  <select name="" id="tbapi">
+                    <option value="">--Select API--</option>
+                  </select>
+                </form>
+              </td>
+              <td class="select">
+                <form action="#">
+                  <select name="" id="tbstatus">
+                    <option value="">--Select Status--</option>
+                  </select>
+                </form>
+              </td>
+              <td class="select">
+                <form action="#">
+                  <select name="" id="tbstatusCode">
+                    <option value="">--Select Code--</option>
+                  </select>
+                </form>
+              </td>
+              <td class="select">
+                <form action="#">
+                  <select name="" id="tbdescription">
+                    <option value="">--Select Description--</option>
+                  </select>
+                </form>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Java Script -->
+  <script src="script/api.js"></script>
+</body>
+
+<!-- Footer -->
+<%- include("partials/footer.ejs") %>
